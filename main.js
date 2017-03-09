@@ -4,5 +4,5 @@ var row2 = document.querySelector('#row2');
 
 
 function valueCoercion (value) {
-  console.log([value, Number(value), String(value), Boolean(value)])
+  console.log([Number(value), String(value), Boolean(value)])
 }
